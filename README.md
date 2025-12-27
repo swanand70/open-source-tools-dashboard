@@ -1,2 +1,2 @@
-﻿# open-source-tools-dashboard
-
+﻿Open Source Tools Dashboard is a web-based platform that curates and presents popular open-source tools across different categories, helping developers quickly discover and explore useful technologies.
+The project is live at: https://swanand70.github.io/open-source-tools-dashboard/
