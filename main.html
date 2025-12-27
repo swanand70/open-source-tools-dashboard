@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Open Source Tools Dashboard</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="#programming">Programming</a>
+        <a href="#ai-ml">AI / ML</a>
+        <a href="#design">Design</a>
+        <a href="#devops">DevOps</a>
+        <a href="#security">Security</a>
+        <a href="#learning">Learning</a>
+        <a href="#utilities">Utilities</a>
+    </nav>
+
+    <header style="padding:60px; text-align:center;">
+        <h1 style="font-size:6rem;">Open Source Tools Dashboard</h1>
+        <p style="color:#aaa;">
+            A curated, category-wise collection of powerful open-source tools.
+        </p>
+    </header>
+    <hr style="margin-bottom:40px">
+
+    <div class="main">
+
+        <section id="programming">
+            <h2>Programming & Development</h2>
+
+            <h3>Code Editors & IDEs</h3>
+            <div class="tool-grid">
+                <div class="tool-grid">
+                    <div class="tool-card">
+                        <img src="https://live.staticflickr.com/65535/53583665687_118df66792.jpg" alt="VS Code">
+                        <h4>VS Code</h4>
+                        <p>A lightweight yet powerful editor with rich extension support.</p>
+                        <div class="tool-links">
+                            <a href="https://code.visualstudio.com/" target="_blank">Website</a>
+                            <a href="https://github.com/microsoft/vscode" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="tool-card">
+                    <img src="https://live.staticflickr.com/4433/35978552310_2e17e04c25_w.jpg" alt="Neovim">
+                    <h4>Neovim</h4>
+                    <p>Modern, fast, terminal-based editor focused on extensibility.</p>
+                    <div class="tool-links">
+                        <a href="https://neovim.io/" target="_blank">Website</a>
+                        <a href="https://github.com/neovim/neovim" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="tool-card">
+                    <img src="https://download.eclipse.org/eclipse.org-common/themes/solstice/public/images/logo/eclipse-800x426.png">
+                    <h4>Eclipse IDE</h4>
+                    <p>Popular open-source IDE widely used for Java development.</p>
+                    <div class="tool-links">
+                        <a href="https://www.eclipse.org/" target="_blank">Website</a>
+                        <a href="https://github.com/eclipse" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ai-ml">
+            <h2>AI, Machine Learning & Data Science</h2>
+
+            <section id="ml-frameworks">
+                <h3>ML Frameworks</h3>
+                <div class="tool-grid">
+                    <div class="tool-card">
+                        <img src="images/pytorch.png">
+                        <h4>PyTorch</h4>
+                        <p>Flexible deep learning framework used in research and production.</p>
+                        <div class="tool-links">
+                            <a href="https://pytorch.org/" target="_blank">Website</a>
+                            <a href="https://github.com/pytorch/pytorch" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <img src="images/tensorflow.webp">
+                        <h4>TensorFlow</h4>
+                        <p>End-to-end machine learning platform by Google.</p>
+                        <div class="tool-links">
+                            <a href="https://www.tensorflow.org/" target="_blank">Website</a>
+                            <a href="https://github.com/tensorflow/tensorflow" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <img src="images/scikitlearn.webp">
+                        <h4>scikit-learn</h4>
+                        <p>Simple and efficient tools for classical machine learning.</p>
+                        <div class="tool-links">
+                            <a href="https://scikit-learn.org/" target="_blank">Website</a>
+                            <a href="https://github.com/scikit-learn/scikit-learn" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="data-analysis">
+                <h3>Data Analysis & Visualization</h3>
+                <div class="tool-grid">
+                    <div class="tool-card">
+                        <img src="images/pandas.png" class="dark">
+                        <h4>Pandas</h4>
+                        <p>Powerful Python library for data manipulation and analysis.</p>
+                        <div class="tool-links">
+                            <a href="https://pandas.pydata.org/" target="_blank">Website</a>
+                            <a href="https://github.com/pandas-dev/pandas" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <img src="images/matplotlib.webp" height="200" width="400">
+                        <h4>Matplotlib</h4>
+                        <p>Comprehensive plotting library for static visualizations.</p>
+                        <div class="tool-links">
+                            <a href="https://matplotlib.org/" target="_blank">Website</a>
+                            <a href="https://github.com/matplotlib/matplotlib" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <img src="images/seaborn.webp">
+                        <h4>Seaborn</h4>
+                        <p>Statistical data visualization built on top of Matplotlib.</p>
+                        <div class="tool-links">
+                            <a href="https://seaborn.pydata.org/" target="_blank">Website</a>
+                            <a href="https://github.com/mwaskom/seaborn" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="notebooks">
+                <h3>Notebooks & Experimentation</h3>
+                <div class="tool-grid">
+                    <div class="tool-card">
+                        <img src="images/jupyter.png">
+                        <h4>Jupyter Notebook</h4>
+                        <p>Interactive notebooks for experimentation and data analysis.</p>
+                        <div class="tool-links">
+                            <a href="https://jupyter.org/" target="_blank">Website</a>
+                            <a href="https://github.com/jupyter/notebook" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+
+                    <div class="tool-card">
+                        <img src="images/googlecolab.png">
+                        <h4>Google Colab</h4>
+                        <p>Cloud-based Jupyter notebooks with free GPU support.</p>
+                        <div class="tool-links">
+                            <a href="https://colab.research.google.com/" target="_blank">Website</a>
+                            <a href="https://github.com/googlecolab" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section id="design">
+            <h2>Design & Creative Tools</h2>
+
+            <h3>Graphics & UI</h3>
+            <div class="tool-grid">
+                <div class="tool-card">
+                    <img src="images/gimp.png">
+                    <h4>GIMP</h4>
+                    <p>Open-source image editing and manipulation software.</p>
+                    <div class="tool-links">
+                        <a href="https://www.gimp.org/" target="_blank">Website</a>
+                        <a href="https://github.com/GNOME/gimp" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="tool-card">
+                    <img src="images/inkscape.webp">
+                    <h4>Inkscape</h4>
+                    <p>Vector graphics editor similar to Adobe Illustrator.</p>
+                    <div class="tool-links">
+                        <a href="https://inkscape.org/" target="_blank">Website</a>
+                        <a href="https://gitlab.com/inkscape/inkscape" target="_blank">GitLab</a>
+                    </div>
+                </div>
+
+                <div class="tool-card">
+                    <img src="images/penpot.png" class="dark">
+                    <h4>Penpot</h4>
+                    <p>Open-source UI/UX design and prototyping tool.</p>
+                    <div class="tool-links">
+                        <a href="https://penpot.app/" target="_blank">Website</a>
+                        <a href="https://github.com/penpot/penpot" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <h3>3D Modeling & Animation</h3>
+            <div class="tool-grid">
+                <div class="tool-card">
+                    <img src="images/blender.png">
+                    <h4>Blender</h4>
+                    <p>Full-featured 3D creation suite for modeling and animation.</p>
+                    <div class="tool-links">
+                        <a href="https://www.blender.org/" target="_blank">Website</a>
+                        <a href="https://github.com/blender/blender" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="devops">
+            <h2>DevOps & Infrastructure</h2>
+
+            <div class="tool-grid">
+                <div class="tool-card">
+                    <img src="images/docker.png">
+                    <h4>Docker</h4>
+                    <p>Platform for building, shipping, and running containers.</p>
+                    <div class="tool-links">
+                        <a href="https://www.docker.com/" target="_blank">Website</a>
+                        <a href="https://github.com/docker/docker-ce" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="tool-card">
+                    <img src="images/kubernetes.png">
+                    <h4>Kubernetes</h4>
+                    <p>Container orchestration system for scalable applications.</p>
+                    <div class="tool-links">
+                        <a href="https://kubernetes.io/" target="_blank">Website</a>
+                        <a href="https://github.com/kubernetes/kubernetes" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="tool-card">
+                    <img src="images/prometheus.png">
+                    <h4>Prometheus</h4>
+                    <p>Monitoring and alerting toolkit for cloud-native systems.</p>
+                    <div class="tool-links">
+                        <a href="https://prometheus.io/" target="_blank">Website</a>
+                        <a href="https://github.com/prometheus/prometheus" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="security">
+            <h2>Security & Networking</h2>
+
+            <div class="tool-grid">
+                <div class="tool-card">
+                    <img src="images/wireshark.png" class="dark">
+                    <h4>Wireshark</h4>
+                    <p>Network protocol analyzer for traffic inspection.</p>
+                    <div class="tool-links">
+                        <a href="https://www.wireshark.org/" target="_blank">Website</a>
+                        <a href="https://github.com/wireshark/wireshark" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="tool-card">
+                    <img src="images/metasploit.png" class="dark">
+                    <h4>Metasploit</h4>
+                    <p>Penetration testing framework for security professionals.</p>
+                    <div class="tool-links">
+                        <a href="https://www.metasploit.com/" target="_blank">Website</a>
+                        <a href="https://github.com/rapid7/metasploit-framework" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="learning">
+            <h2>Learning & Documentation</h2>
+
+            <div class="tool-grid">
+                <div class="tool-card">
+                    <img src="images/mdnwebdocs.png" class="dark">
+                    <h4>MDN Web Docs</h4>
+                    <p>Comprehensive documentation for web technologies.</p>
+                    <div class="tool-links">
+                        <a href="https://developer.mozilla.org/" target="_blank">Website</a>
+                        <a href="https://github.com/mdn/content" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="tool-card">
+                    <img src="images/devdocs.webp">
+                    <h4>DevDocs</h4>
+                    <p>Fast, offline-friendly documentation browser.</p>
+                    <div class="tool-links">
+                        <a href="https://devdocs.io/" target="_blank">Website</a>
+                        <a href="https://github.com/freeCodeCamp/devdocs" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="utilities">
+            <h2>Utilities & Productivity</h2>
+
+            <div class="tool-grid">
+                <div class="tool-card">
+                    <img src="images/tmux.png">
+                    <h4>tmux</h4>
+                    <p>Terminal multiplexer for managing multiple sessions.</p>
+                    <div class="tool-links">
+                        <a href="https://github.com/tmux/tmux" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="tool-card">
+                    <img src="images/htop.png">
+                    <h4>htop</h4>
+                    <p>Interactive process viewer for Unix systems.</p>
+                    <div class="tool-links">
+                        <a href="https://htop.dev/" target="_blank">Website</a>
+                        <a href="https://github.com/htop-dev/htop" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+</body>
+
+</html>
